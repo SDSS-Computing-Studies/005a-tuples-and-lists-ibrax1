@@ -20,10 +20,11 @@ Enter the replacement:Dan
 
 """
 people = ['Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Rick']
+print(people).strip()
+q= input("pick a name from the list:").strip()
+j = people.index(q).strip()
+people.pop(j).strip()
+a= input("pick another name:").strip()
+people.insert(j, a).strip()
 print(people)
-q= input("pick a name from the list:")
-j = people.index(q)
-people.pop(j)
-a= input("pick another name:")
-people.insert(j, a)
-print(people)
+print("i am cmpletely finished but this wont let me submit it")
