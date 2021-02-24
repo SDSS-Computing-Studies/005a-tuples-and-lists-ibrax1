@@ -23,5 +23,9 @@ Enter an integer:-1
 
 The largest number you entered is 92
 """
-
-
+numlist =()
+numbers = input("Enter an integer:")
+if numbers == -1:
+    break
+else:
+    print(numbers)
