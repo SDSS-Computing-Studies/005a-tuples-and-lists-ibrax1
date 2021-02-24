@@ -23,10 +23,11 @@ Enter an integer:-1
 
 The largest number you entered is 92
 """
+import math
 numlist =()
-numbers = input("Enter an integer:")
-for numbers in numbers:
-    if numbers == -1:
+n = input("Enter an integer:")
+while n != (-1):
+    if True:
         break
-else:
-    input("Enter an integer:")
+    if False:
+        input("Enter an integer")
