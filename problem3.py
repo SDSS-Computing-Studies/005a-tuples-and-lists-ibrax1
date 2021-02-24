@@ -24,10 +24,15 @@ Enter an integer:-1
 The largest number you entered is 92
 """
 import math
-numlist =()
+numlist =[]
 n = input("Enter an integer:")
+n=int(n)
 while n != (-1):
-    if True:
+    a = input("Enter an integer:")
+    if n == (-1):
         break
-    if False:
-        input("Enter an integer")
+
+numlist.append(n)
+numlist.append(a)
+numlist.sort()
+print(numlist)
