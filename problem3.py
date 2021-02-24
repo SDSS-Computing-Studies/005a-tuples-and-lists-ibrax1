@@ -27,12 +27,14 @@ import math
 numlist =[]
 n = input("Enter an integer:")
 n=int(n)
-while n != (-1):
+while n != -1:
+    
     a = input("Enter an integer:")
-    if n == (-1):
+    a =int(a)
+    if a == -1:
         break
 
-numlist.append(n)
-numlist.append(a)
+    numlist.append(n)
+    numlist.append(a)
 numlist.sort()
-print(numlist)
+print("The largest number you entered was", numlist[-1])
