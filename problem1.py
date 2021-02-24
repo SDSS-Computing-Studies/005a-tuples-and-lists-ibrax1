@@ -22,7 +22,8 @@ Enter the replacement:Dan
 people = ['Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Rick']
 print(people)
 q= input("pick a name from the list:")
-people.remove(q)
+j = people.index(q)
+people.pop(j)
 a= input("pick another name:")
-people.insert(num,q)
+people.insert(j, a)
 print(people)
