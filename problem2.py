@@ -26,9 +26,9 @@ word not in list
 
 fruit = ["apple","cherry","kiwi","apple","banana","strawberry","kiwi","blueberry","kiwi"]
 print(fruit)
-q =input("Enter a word from the list:")
+q =input("Enter a word:")
 while q in fruit:
     fruit.remove(q)
-a = input("Enter another word:")
-fruit.append(a)
+if q not in fruit:
+    fruit.append(q)
 print(fruit)
